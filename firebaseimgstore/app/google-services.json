@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "292752220636",
+    "project_id": "madlab-1c055",
+    "storage_bucket": "madlab-1c055.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:292752220636:android:27e2bf1054789109202f19",
+        "android_client_info": {
+          "package_name": "com.example.firebaseimgstore"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9y-KvMFdvihGVS6TW092v3iaewtfl23o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

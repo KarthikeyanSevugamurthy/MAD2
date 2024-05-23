@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <SurfaceView
+        android:id="@+id/surfaceView"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp" />
+
+
+    <VideoView
+        android:id="@+id/videoView"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_below="@id/surfaceView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp" />
+
+    <LinearLayout
+        android:layout_width="353dp"
+        android:layout_height="81dp"
+        android:layout_below="@id/videoView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginBottom="0dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonrecord"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:onClick="toggleRecording"
+            android:text="Record" />
+
+        <Button
+            android:id="@+id/buttonplayback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="playbackVideo"
+            android:text="Playback"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonexit"
+        android:layout_width="19dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/surfaceView"
+        android:layout_below="@id/buttonplayback"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="32dp"
+        android:drawablePadding="20dp"
+        android:onClick="exitApp"
+        android:text="Exit"
+        android:visibility="gone"
+        tools:ignore="NotSibling" />
+
+</RelativeLayout>

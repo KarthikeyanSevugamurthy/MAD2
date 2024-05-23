@@ -1,0 +1,29 @@
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- creation of animation list-->
+    <item
+        android:drawable="@drawable/it"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/img1"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/img_2"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/img_3"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/img"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/it"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/login"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/money5"
+        android:duration="100" />
+
+</animation-list>
